@@ -12,6 +12,13 @@ mysql2 && sequelize: libraries necessary for sequelize to work
 ava && sinon: libraries from unit test
 nyc: to use the coverage
 nodemon: for the most fluid development of the project
+### Cloud
+url for cloud
+https://retotecnico2022.herokuapp.com/retoTecnico/
+
+just add the name of the service, after the server prefix and everything will work ok
+like this!
+https://retotecnico2022.herokuapp.com/retoTecnico/colores?page=1
 
 ### Built With
 
@@ -80,5 +87,6 @@ npm test test/<test-folder>/*
 # run a single testing file
 <test-file>
 npm test test/<test-file>
+
 
 
