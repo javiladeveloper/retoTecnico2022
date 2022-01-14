@@ -35,11 +35,7 @@ npm run develop
 
 ### Folder Structure
     .  
-    ├── controller                  # controller code
-    ├── coverage                    # report to test code
-    ├── models                      # models sequelize
-    ├── routes                      # routes services
-    ├── utils                       # utils from proyects
+    ├── src                         # source code
     ├── test                        # tests folder
     ├── package.json
     ├── readme.md
