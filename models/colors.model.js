@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {
         sequelize,
         modelName: 'colors',
-        freezeTableName: true,
+        // freezeTableName: true,
         timestamps: false,
     });
     return colors;
