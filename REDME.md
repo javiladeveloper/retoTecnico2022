@@ -20,6 +20,22 @@ just add the name of the service, after the server prefix and everything will wo
 like this!
 https://retotecnico2022.herokuapp.com/retoTecnico/colores?page=1
 
+### API DOCUMENTATION
+https://documenter.getpostman.com/view/12046942/UVXjJazb
+
+### .ENV
+They are not the best practices, but I will leave in the readme all the values ​​that will go into the .env file
+
+#Base de datos Mysql
+DB_USERNAME= 'uwjryq4815e7eycr'
+DB_PASSWORD= "PfjtM7IlBwb8g8SqSWXL"
+DB_MAIN= "bu7zxyqbmsfyed2hv9xj"
+DB_HOST= "bu7zxyqbmsfyed2hv9xj-mysql.services.clever-cloud.com"
+
+#Configuration Server
+PORT= '4000'
+size_page = 4
+
 ### Built With
 
 This project use specially framework for expose as api rest application.
