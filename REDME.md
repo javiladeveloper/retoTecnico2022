@@ -23,6 +23,9 @@ https://retotecnico2022.herokuapp.com/retoTecnico/colores?page=1
 ### API DOCUMENTATION
 https://documenter.getpostman.com/view/12046942/UVXjJazb
 
+### GIT SOURCE
+git@github.com:javiladeveloper/retoTecnico2022.git
+
 ### .ENV
 They are not the best practices, but I will leave in the readme all the values ​​that will go into the .env file
 
