@@ -51,6 +51,7 @@ const listColor = async (limit, offset, orderBy, sort, id, name, year, color, pa
         })
         return response
     } catch (error) {
+        console.log(error)
         throw new ServiceError(500, 'Mysql query error ocurred: colors');
     }
 }

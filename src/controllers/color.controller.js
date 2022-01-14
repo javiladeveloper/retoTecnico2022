@@ -35,9 +35,7 @@ const list = async (request) => {
         const pantone_value = (request.pantone_value) ? (`${request.pantone_value}%`) : '%';
         let resultDb = await listColor(limit, offset, orderBy, sort, id, name, year, color, pantone_value)
         page++
-        console.log(resultDb, page, limit)
         const response = generalFunctions.getPagingData(resultDb, page, limit);
-        console.log(response)
         let pagination = {
             totalItems: response.totalItems,
             totalPages: response.totalPages,
