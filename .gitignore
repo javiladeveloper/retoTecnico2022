@@ -1,0 +1,5 @@
+node_modules/
+.env
+./*.sql
+package-lock.json
+/baseDatos
