@@ -25,6 +25,7 @@ https://documenter.getpostman.com/view/12046942/UVXjJazb
 
 ### GIT SOURCE
 git@github.com:javiladeveloper/retoTecnico2022.git
+branch is master
 
 ### .ENV
 They are not the best practices, but I will leave in the readme all the values ​​that will go into the .env file
